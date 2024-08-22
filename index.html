@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea</title>
+    <style>
+        table, th,td{
+            border: 1px solid black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Trabajo HTML</h1>
+    </header>
+    
+        <nav>
+            <h4>Enlaces Internos</h4>
+            <li><a href="#Estructura">Ir a Estructura</a></li>
+            <li><a href="#Multimedia">Ir a Multimedia</a></li>
+            <li><a href="#Formulario">Ir a Formulario</a></li>
+        </nav>
+    
+<main>
+    <!-- PUNTO 1-->
+    <article>
+        <a name="Estructura"></a>
+        <h1>1. Estructura Básica del documento HTML</h1>
+        <h3>Este documento HTML tiene una estructura básica que incluye la declaración DOCTYPE, etiquetas de metadatos y un título</h3>
+    </article>
+    <!-- PUNTO 2-->
+    <article>
+        <h1>2. Encabezados y Propiedades del texto</h1>
+        <h1 style="font-weight: normal; text-decoration: underline;">Texto Subrayado</h1>
+        <h2 style="font-weight: normal; font-style: italic;">Texto Cursiva</h2>
+        <h3 style="font-weight: bold;">Texto en Negrita</h3>
+        <h4 style="font-weight: bold; text-decoration: underline; font-style: italic;">Texto en Negrita, Subrayado y en Cursiva</h4>
+        <h5 style="font-weight: normal; font-style: italic; text-decoration: underline;">Texto en Subrayado y en Cursiva</h5>
+        <h6 style="font-weight: bold; font-style: italic;">Texto en Negrita y en Cursiva</h6>
+    </article>
+    <!-- PUNTO 3-->
+    <article>
+        <h1>3. Divisiones y Agrupación de Contenido</h1>
+        <section>
+            <h2>Sección 1</h2>
+            <p>Contenido de la primera sección agrupada en un div.</p>
+        </section>
+        <section>
+            <h2>Sección 2</h2>
+            <p>Contenido de la segunda sección agrupada en un div.</p>
+        </section>
+    </article>
+    <!-- PUNTO 4-->
+    <article>
+        <section>
+            <h1>4. Enlaces y Listas</h1>
+            <a href="https://www4.frm.utn.edu.ar/" target="_blank">Ir a pagina de la UTN FRM</a>
+        </section>
+        <nav>
+            <ul>
+                <h4>Enlaces Internos</h4>
+                <li><a href="#Estructura">Ir a Estructura</a></li>
+                <li><a href="#Multimedia">Ir a Multimedia</a></li>
+                <li><a href="#Formulario">Ir a Formulario</a></li>
+            </ul>
+        </nav>
+        <section>
+            <ul>
+                <h4>Lista desordenada</h4>
+                <li>Elemento 1 de lista desordenada</li>
+                <li>Elemento 2 de lista desordenada</li>
+                <li>Elemento 3 de lista desordenada</li>
+            </ul>
+            <ol>
+                <h4>Lista ordenada</h4>
+                <li>Elemento 1 de lista ordenada</li>
+                <li>Elemento 2 de lista ordenada</li>
+                <li>Elemento 3 de lista ordenada</li>     
+            </ol>
+        </section>
+    </article>
+    
+    <!-- PUNTO 5-->
+    <article>
+        <a name="Multimedia"></a>
+        <h1>5. Elementos Multimedia</h1>
+        <h2>Imagenes</h2>
+        <img src="https://www.adslzone.net/app/uploads-adslzone.net/2019/04/borrar-fondo-imagen-930x487.jpg" width="200px" height="200px" alt="Imagen">
+        <img src="https://cope-cdnmed.cope.es/resources/jpg/7/0/1673121316107.jpg" width="200px" height="200px" alt="Es una imagen">
+        <h2>Video</h2>
+
+        <video src="https://video-previews.elements.envatousercontent.com/5b3b6876-9689-4cfe-9692-1cf061a156f6/watermarked_preview/watermarked_preview.mp4" controls width="200px" height="200px"></video>
+        <h2>Audio</h2> 
+        <audio src="https://download.blender.org/peach/trailer/trailer_1080p.ogg" controls></audio>
+    </article>
+    <!-- PUNTO 6-->
+    </article>
+        <h1>6. Tablas</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Columna 1</th>
+                    <th>Columna 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Dato 1</td>
+                    <td>Dato 3</td>
+                    
+                </tr>
+                <tr>
+                    <td>Dato 2</td>
+                    <td>Dato 4</td>              
+                </tr>
+            </tbody>
+            <tfoot>
+
+            </tfoot>
+
+        </table>
+    </article>
+    <!-- PUNTO 7-->
+    <article>
+        <a name="Formulario"></a>
+        <h1>7. Formulario</h1>
+        <form action="">
+            <section></section>
+                <label for="text">Nombre</label>
+                <input type="text" placeholder="Ingrese Nombre">
+                <h2></h2>
+            </section>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" placeholder="Ejemplo@gmail.com">
+                <h2></h2>
+            </section>
+            <section>
+                <label for="">Mensaje</label>
+                <textarea name="Area Texto" id="1"></textarea>
+                <button type="submit">Enviar Mensaje</button>
+            </section>
+        </form>
+    </article>
+    </main> 
+</body>
+</html>
